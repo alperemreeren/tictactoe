@@ -1,0 +1,59 @@
+body {
+    min-height: calc(100vh - 70px);
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(44, 41, 44);
+    background-color: rgb(247, 239, 247);
+}
+
+#main-header {
+    background-color: #182EE0;
+    color: white;
+    padding: 2rem 5%;
+    text-align: center;
+}
+
+.btn {
+    font: inherit;
+    padding: 0.5rem 1.5rem;
+    background-color: #182EE0;
+    border: 1px solid #182EE0;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-alt {
+    background-color: transparent;
+    border-color: transparent;
+    color: #182EE0;
+}
+
+.btn:hover {
+    background-color: #4BB4FA;
+    border-color: #4BB4FA;
+}
+
+.btn-alt:hover {
+    background-color: rgb(230, 201, 255);
+    border-color: transparent;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+}
+
+footer div {
+    padding: 5% 15%;
+    background-color: #182EE0;
+}
+
+footer h3 {
+    text-align: center;
+    width: 100%;
+    font-size: 1rem;
+    color: #ffffff;
+    text-shadow: 0.75px 0.75px black;
+}
